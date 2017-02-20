@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_frm_entradas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.upb.cartadigital.frmEntradas"
+    tools:showIn="@layout/activity_frm_entradas"
+    android:background="@color/colorFondo">
+
+    <TextView
+        android:text="Entradas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:id="@+id/txtTitulo"
+        android:textColor="@color/colorTitulo"
+        android:textSize="50sp"
+        android:fontFamily="cursive" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitulo"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="39dp"
+        android:id="@+id/rbtnOpc1" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:id="@+id/rbtnOpc2"
+        android:layout_below="@+id/rbtnOpc1"
+        android:layout_alignStart="@+id/rbtnOpc1" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbtnOpc3"
+        android:autoText="false"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/rbtnOpc2" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbtnOpc4"
+        android:layout_below="@+id/rbtnOpc3"
+        android:layout_alignStart="@+id/rbtnOpc3"
+        android:layout_marginTop="11dp" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/rbtnOpc5"
+        android:layout_below="@+id/rbtnOpc4"
+        android:layout_alignStart="@+id/rbtnOpc4" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtOpc1"
+        android:textSize="24sp"
+        android:textColor="@android:color/background_light"
+        android:fontFamily="serif"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/rbtnOpc1"
+        android:layout_alignStart="@+id/txtTitulo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtOpc2"
+        android:textSize="24sp"
+        android:textColor="@android:color/background_light"
+        android:fontFamily="serif"
+        android:layout_alignTop="@+id/rbtnOpc2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/txtOpc1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtOpc3"
+        android:textSize="24sp"
+        android:textColor="@android:color/background_light"
+        android:fontFamily="serif"
+        android:layout_alignTop="@+id/rbtnOpc3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/txtOpc2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtOpc4"
+        android:textSize="24sp"
+        android:textColor="@android:color/background_light"
+        android:fontFamily="serif"
+        android:layout_alignTop="@+id/rbtnOpc4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/txtOpc3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtOpc5"
+        android:textSize="24sp"
+        android:textColor="@android:color/background_light"
+        android:fontFamily="serif"
+        android:layout_alignTop="@+id/rbtnOpc5"
+        android:layout_alignStart="@+id/txtOpc4" />
+
+
+</RelativeLayout>

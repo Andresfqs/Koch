@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_frm_opc_chef"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.upb.cartadigital.frmOpcChef"
+    tools:showIn="@layout/activity_frm_opc_chef">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorFondo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="Opciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="46dp"
+            android:id="@+id/txtTitulo"
+            tools:fontFamily="cursive"
+            tools:textColor="@color/colorTitulo"
+            tools:textSize="54sp" />
+
+
+        <Button
+            android:text="Actualizar"
+            android:id="@+id/btnActualizar"
+            android:layout_height="50dp"
+            tools:textSize="20sp"
+            tools:fontFamily="serif"
+            android:layout_below="@+id/btnPedidos"
+            android:layout_centerHorizontal="true"
+            android:layout_width="170dp" />
+
+        <Button
+            android:text="Pedidos"
+            android:id="@+id/btnPedidos"
+            android:layout_height="50dp"
+            tools:textSize="20sp"
+            tools:fontFamily="serif"
+            android:layout_marginTop="52dp"
+            android:layout_below="@+id/txtTitulo"
+            android:layout_alignStart="@+id/btnActualizar"
+            android:layout_width="170dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

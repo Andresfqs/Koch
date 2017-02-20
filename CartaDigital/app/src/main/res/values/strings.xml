@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Carta Virtual</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_frm_ubicacion">Ubicacion</string>
+    <string name="title_activity_frm_entradas">frmEntradas</string>
+    <string name="title_activity_frm_menu">frmMenu</string>
+    <string name="title_activity_frm_pedidos">frmPedidos</string>
+    <string name="title_activity_ubicacion">Map</string>
+    <string name="title_activity_frm_opc_chef">frmOpcChef</string>
+</resources>
