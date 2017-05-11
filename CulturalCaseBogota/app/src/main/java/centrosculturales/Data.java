@@ -5,6 +5,19 @@ public class Data {
             celular,correo_electrãnico,pagina_web,direccion,localidad,upz,nombre_de_la_entidad_administradora_del_equipamiento,
             ano_inicio,caracter,del_orden,uso_principal;
 
+    public Data(String sid, String id, String position, String created_at,
+                String created_meta, String updated_at, String updated_meta,
+                String meta, String no, String nombre_del_museo, String telefono_fijo,
+                String celular, String correo_electrãnico, String pagina_web, String direccion,
+                String localidad, String upz, String nombre_de_la_entidad_administradora_del_equipamiento,
+                String ano_inicio, String caracter, String del_orden, String uso_principal) {
+
+    }
+
+    public Data() {
+
+    }
+
     public String getSid() {
         return sid;
     }

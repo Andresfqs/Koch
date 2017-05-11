@@ -4,10 +4,6 @@ import android.media.RemoteController;
 
 import java.util.ArrayList;
 
-/**
- * Created by JuanMa on 27/04/2017.
- */
-
 public class Tabla {
     public String[] getMeta() {
         return meta;

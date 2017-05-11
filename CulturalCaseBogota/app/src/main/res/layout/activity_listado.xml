@@ -6,15 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.culturalcase.upb.culturalcasebogota.Listado">
 
-    <ListView
-        android:id="@+id/listView"
-        android:layout_width="360dp"
-        android:layout_height="360dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="13dp"
-        android:textAlignment="center" />
-
     <TextView
         android:id="@+id/lblTitulo"
         android:layout_width="300dp"
@@ -36,8 +27,17 @@
         android:textAlignment="center"
         android:textColor="@android:color/background_dark"
         android:textSize="24sp"
-        android:layout_marginBottom="12dp"
-        android:layout_above="@+id/listView"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/lblTitulo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp" />
+
+    <ListView
+        android:id="@+id/listCentros"
+        android:layout_width="360dp"
+        android:layout_height="400dp"
+        android:layout_below="@+id/lblLocalidad"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp" />
+
 
 </RelativeLayout>

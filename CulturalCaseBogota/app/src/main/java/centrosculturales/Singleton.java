@@ -12,16 +12,16 @@ public class Singleton {
         return ourInstance;
     }
 
-    private Singleton() {
+    public Singleton() {
         listadoCentros = new ArrayList();
-    }
-
-    public String getLocalizacion() {
-        return localizacion;
     }
 
     public void setLocalizacion(String localizacion) {
         this.localizacion = localizacion;
+    }
+
+    public String getLocalizacion() {
+        return localizacion;
     }
 
     public ArrayList<Data> getListadoCentros() {
